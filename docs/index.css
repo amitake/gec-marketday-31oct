@@ -1,6 +1,6 @@
 body {
     padding-top: 100px;
-    background-color: rgb(242, 236, 254);
+    background-color: rgb(254, 254, 254);
     background-size: cover;
 }
 
@@ -9,6 +9,11 @@ body {
     margin: 10px 50px;
     padding: 5px 15px;
 
+}
+
+.main-log {
+    justify-content: center;
+    height: 40%;
 }
 
 .info-template {
