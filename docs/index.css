@@ -2,7 +2,14 @@ body {
     padding-top: 100px;
     background-color: rgb(160, 130, 220);
     background-size: cover;
-    /* border: solid 3px #000000; */
+}
+
+footer {
+
+    background-color: rgba(255, 255, 255, 0.861);
+    font-family: serif;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
 }
 
 .starter-template {
@@ -10,7 +17,6 @@ body {
     margin: auto 50px 0px;
     padding: 5px 15px;
     background-color: rgb(209, 253, 249,0.7);
-    /* border: solid 3px #000000; */
 }
 .starter-template li {
     list-style: none;
@@ -19,7 +25,6 @@ body {
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(255, 232, 198, 0.718);
-    /* border: solid 3px #000000; */
 }
 .info-template li {
     list-style: none;
@@ -32,15 +37,12 @@ footer {
     background-color: rgba(255, 255, 255, 0.861);
     font-family: serif;
     font-size: 20px;
-    /* border: solid 3px #000000; */
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
 .header {
     position: fixed;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.861);
-    /* border: solid 3px #000000; */
     width: 100%;
     justify-content: space-between;
     display: flex;
@@ -56,28 +58,10 @@ footer {
     list-style: none;
     width: 100%;
     margin: 10px ;
-    /* border: solid 3px #000000; */
 }
 #nav li {
     display: inline-block;
 
     text-align: center;
     line-height: 50px;
-    /* border: solid 3px #000000; */
 }
-/* #nav li a {
-    color: #596ffb;
-    font-weight: bold;
-}
-.contact {
-    margin: 10px ;
-    padding: 10px 15px;
-    background-color: rgba(216, 246, 208, 0.7);
-}
-.contact li { 
-    list-style: none;
-}
-#icon {
-    height: 40px;
-    width: auto;
-} */
