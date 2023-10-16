@@ -1,6 +1,6 @@
 body {
     padding-top: 100px;
-    background-color: rgb(160, 130, 220);
+    background-color: rgb(242, 236, 254);
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@ footer {
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.861);
     font-family: serif;
-    font-size: 20px;
+    font-size: 5px;
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
