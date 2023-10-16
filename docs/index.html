@@ -1,4 +1,50 @@
-{% extends "layout.html" %}
-{% block content %}
-<h1>Market Day</h1>
-{% endblock %}
+<!DOCTYPE html>
+<html leng="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>GEC Market Day</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        
+        <div id="header"></div>
+
+    </head>
+    <body>
+
+        <div id="padding"></div>
+        
+        <div class='starter-template' id="name">
+            <u><h2 class="midasi">Profile</h2></u>
+            <h3>名前：竹中亜瞳（Ami Takenaka）</h3>
+            <ul>
+                <li>生年月日：2001/08/06</li>
+                <li>出身：佐賀県</li>
+                <li>所属①：武蔵野大学データサイエンス学部</li>
+                <li>所属②：福原ゼミ・JDC-MUDS project（共同研究PJ）・baby-mosoly PJ</li>
+            </ul>
+        </div>
+        <div class='info-template' id="info">
+            <u><h2 class="midasi">Self-intoroduction</h2></u>
+            <ul>
+                <li>趣味：海外ドラマを見ること・知らない街を散策すること</li>
+                <li>興味：韓国・筋トレ</li>
+            </ul>
+        </div>
+
+        <div id="footer"></div>
+
+        <script>
+            fetch("header.html")
+                .then((response) => response.text())
+                .then((data) => document.querySelector("#header").innerHTML = data);
+            fetch("footer.html")
+                .then((response) => response.text())
+                .then((data) => document.querySelector("#footer").innerHTML = data);
+        </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
