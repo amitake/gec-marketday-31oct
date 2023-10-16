@@ -4,21 +4,29 @@ body {
     background-size: cover;
 }
 
-.starter-template {
-    
-    margin: auto 50px 0px;
+.slogan {
+    text-align: center;
+    margin: 10px 50px;
     padding: 5px 15px;
-    background-color: rgb(209, 253, 249,0.7);
+
 }
-.starter-template li {
-    list-style: none;
-}
+
 .info-template {
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(255, 232, 198, 0.718);
 }
 .info-template li {
+    list-style: none;
+}
+
+.starlight-template {
+    
+    margin: auto 50px 0px;
+    padding: 5px 15px;
+    background-color: rgb(209, 253, 249,0.7);
+}
+.starlight-template li {
     list-style: none;
 }
 
@@ -33,7 +41,7 @@ footer {
     bottom: 0; /*下に固定*/
 }
 
-#nav {
+/* #nav {
     text-align: center;
     overflow: hidden;
     list-style: none;
@@ -45,4 +53,4 @@ footer {
 
     text-align: center;
     line-height: 50px;
-}
+} */
