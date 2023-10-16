@@ -82,13 +82,7 @@ footer {
     align-items: center; /* 中の要素を上下中央に並べる */
     box-sizing: border-box; /* padding分を含んで幅を100%にするため */
 }
-.header h1 {
-    margin: 10px;
-    font-family: fantasy;
-    font-size: 40px;
-    /* border: solid 3px #000000; */
-    vertical-align: middle;
-}
+
 #nav {
     text-align: center;
     overflow: hidden;
@@ -104,16 +98,14 @@ footer {
     line-height: 50px;
     /* border: solid 3px #000000; */
 }
-#nav li a {
+/* #nav li a {
     color: #596ffb;
     font-weight: bold;
-    /* border: solid 3px #000000; */
 }
 .contact {
     margin: 10px ;
     padding: 10px 15px;
     background-color: rgba(216, 246, 208, 0.7);
-    /* border: solid 3px #000000; */
 }
 .contact li { 
     list-style: none;
@@ -121,5 +113,4 @@ footer {
 #icon {
     height: 40px;
     width: auto;
-    /* border: solid 3px #000000; */
-}
+} */
