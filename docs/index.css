@@ -66,6 +66,8 @@ footer {
     font-family: serif;
     font-size: 20px;
     /* border: solid 3px #000000; */
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
 }
 .header {
     position: fixed;
