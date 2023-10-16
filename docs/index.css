@@ -4,14 +4,6 @@ body {
     background-size: cover;
 }
 
-footer {
-
-    background-color: rgba(255, 255, 255, 0.861);
-    font-family: serif;
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
-}
-
 .starter-template {
     
     margin: auto 50px 0px;
@@ -39,17 +31,6 @@ footer {
     font-size: 20px;
     position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
-}
-.header {
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-    top: 0; /* 上下の固定位置を上から0pxにする */
-    left: 0; /* 左右の固定位置を左から0pxにする */
-    align-items: center; /* 中の要素を上下中央に並べる */
-    box-sizing: border-box; /* padding分を含んで幅を100%にするため */
 }
 
 #nav {
