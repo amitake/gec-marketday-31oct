@@ -10,7 +10,7 @@ body {
 
 .log-imag {
     margin: auto;
-    max-width: 95vw;
+    max-width: 70vw;
 }
 
 .info-template {
@@ -38,6 +38,11 @@ body {
     list-style: none;
 }
 
+.container {
+    margin: auto 50px 0px;
+    padding: 5px 15px;
+}
+
 footer {
     text-align: center;
     width: 100%;
@@ -48,17 +53,3 @@ footer {
     position: fixed;
     bottom: 0; /*下に固定*/
 }
-
-/* #nav {
-    text-align: center;
-    overflow: hidden;
-    list-style: none;
-    width: 100%;
-    margin: 10px ;
-}
-#nav li {
-    display: inline-block;
-
-    text-align: center;
-    line-height: 50px;
-} */
