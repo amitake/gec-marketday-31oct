@@ -1,4 +1,5 @@
 body {
+    text-align:center;
     padding-top: 100px;
     background-color: rgb(254, 254, 254);
     background-size: cover;
@@ -10,7 +11,7 @@ body {
 
 .log-imag {
     margin: auto;
-    max-width: 70vw;
+    max-width: 90vw;
 }
 
 .info-template {
