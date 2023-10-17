@@ -5,9 +5,11 @@ body {
 }
 
 .main-log {
-    position:absolute;
-    margin: auto;
-    max-width: 75vw;
+    text-align:center;
+}
+
+.log-imag {
+    max-width: 70vw;
 }
 
 .info-template {
