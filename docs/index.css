@@ -4,28 +4,11 @@ body {
     background-size: cover;
 }
 
-@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
-    .main-log {
-        text-align:center;
-        height: 30%;
-    }
+.main-log {
+    text-align:center;
+    max-width: 75vw;
 }
 
-@media screen and (max-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
-    .main-log {
-        text-align:center;
-        max-width: 100% ;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 479px) { /*ウィンドウ幅が767px以上の場合に適用*/
-    .main-log {
-        text-align:center;
-        max-width: 100% ;
-        height: auto;
-    }
-}
 .info-template {
     margin: 10px 50px;
     padding: 5px 15px;
