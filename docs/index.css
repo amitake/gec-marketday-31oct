@@ -13,6 +13,7 @@ body {
 }
 
 .info-template {
+    text-align:center;
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(255, 232, 198, 0.718);
@@ -22,7 +23,7 @@ body {
 }
 
 .starlight-template {
-    
+    text-align:center;
     margin: auto 50px 0px;
     padding: 5px 15px;
     background-color: rgb(209, 253, 249,0.7);
