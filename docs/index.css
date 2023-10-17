@@ -9,7 +9,7 @@ body {
 }
 
 .log-imag {
-    max-width: 70vw;
+    max-width: 80vw;
 }
 
 .info-template {
@@ -18,6 +18,13 @@ body {
     padding: 5px 15px;
     background-color: rgba(255, 232, 198, 0.718);
 }
+
+.information {
+    padding: 5em;
+    text-align: center;
+    font-size: 20em;
+}
+
 .info-template li {
     list-style: none;
 }
