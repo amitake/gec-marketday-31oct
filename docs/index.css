@@ -5,7 +5,8 @@ body {
 }
 
 .main-log {
-    margin:  0 auto;
+    position:absolute;
+    margin: auto;
     max-width: 75vw;
 }
 
