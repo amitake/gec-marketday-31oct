@@ -1,5 +1,5 @@
 body {
-    padding-top: 100px;
+    padding-top: 50ex;
     background-color: rgb(254, 254, 254);
     background-size: cover;
 }
@@ -15,8 +15,8 @@ body {
 
 .info-template {
     text-align:center;
-    margin: 10px 50px;
-    padding: 5px 15px;
+    margin: 10em 50em;
+    padding: 5em 15em;
     background-color: rgba(255, 232, 198, 0.718);
 }
 
@@ -30,8 +30,8 @@ body {
 
 .starlight-template {
     text-align:center;
-    margin: auto 50px 0px;
-    padding: 5px 15px;
+    margin: auto 50em 0em;
+    padding: 5em 15em;
     background-color: rgb(209, 253, 249,0.7);
 }
 .starlight-template li {
@@ -39,8 +39,8 @@ body {
 }
 
 .container {
-    margin: auto 50px 0px;
-    padding: 5px 15px;
+    margin: auto 50em 0em;
+    padding: 5em 15em;
 }
 
 footer {
