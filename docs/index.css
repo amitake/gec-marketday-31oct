@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: "Futura", Helvetica, sans-serif;
+    background: rgb(145, 70, 180);
 }
-/* activities page */
 
 main{
     margin-top: 10vh; /* （※）の高さに合わせる */
@@ -25,8 +25,8 @@ footer {
 
 header {
     position: fixed;
+    top: 0;
 }
-
 
 /* Home and common items */
 .main-log {
@@ -107,7 +107,6 @@ header {
 .card {
     width: 35vw;
     height: 35vh;
-    /* border: 1px solid lightgray; */
 }
 
 .card:nth-child(2) {
@@ -124,7 +123,6 @@ header {
 .sweet-card {
     width: 35vw;
     height: 35vh;
-    /* border: 1px solid lightgray; */
 }
 
 .sweet-card:nth-child(3) {
