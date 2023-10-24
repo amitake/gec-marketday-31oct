@@ -155,6 +155,15 @@ header {
     display: flex;
 }
 
+/* activities page */
+
+#list-act {
+    display: flex;
+}
+
+#list-act ul {
+    list-style: none;
+}
 /* Navbar & Navmenu color */
 :root {
     --background-navbar: rgba(55, 55, 55, 0.98);
