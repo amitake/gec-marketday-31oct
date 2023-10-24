@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: "Futura", Helvetica, sans-serif;
     background: rgb(145, 70, 180);
 }
@@ -14,17 +13,16 @@ footer {
     text-align: center;
     height: 5vh;
     width: 100%;
-    padding: 10%;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.861);
     font-family: serif;
-    font-size: 8px;
+    font-size: 3px;
     position: fixed;
     bottom: 0; /*下に固定*/
 }
 
 header {
     position: fixed;
-    top: 0;
 }
 
 /* Home and common items */
