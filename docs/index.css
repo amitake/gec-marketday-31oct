@@ -15,11 +15,11 @@ main{
 
 footer {
     text-align: center;
-    height: 2vh;
+    height: 4vh;
     width: 100%;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.861);
-    font-size: auto;
+    background-color: rgba(55, 55, 55, 0.98);
+    font-size: 50%;
     position: fixed;
     bottom: 0; /*下に固定*/
 }
@@ -34,11 +34,29 @@ footer {
     max-height: 90vh;
 }
 
+.contact {
+    text-align: center;
+    margin: 2vh 5vw;
+    padding: 1vh 3vw;
+    background-color: rgba(193, 195, 251, 0.7);
+    /* border: solid 3px #000000; */
+}
+
+.contact ul {
+    list-style: none;
+}
+#icon {
+    padding:5px;
+    max-height: 10vh;
+    width: auto;
+    /* border: solid 3px #000000; */
+}
+
 .info-template {
     text-align:center;
     margin: 2vh 5vw;
     padding: 1vh 3vw;
-    background-color: rgb(213, 174, 245);
+    background-color: rgb(199, 131, 255);
 }
 
 .information {
@@ -49,32 +67,18 @@ footer {
     list-style: none;
 }
 
+.details {
+    color: rgb(255, 130, 29);
+}
+
 .starlight-template {
     text-align:center;
     margin: 2vh 5vw;
     padding: 1vh 3vw;
-    background-color: rgb(255, 250, 163);
+    background-color: rgb(255, 224, 163);
 }
 .starlight-template li {
     list-style: none;
-}
-
-.contact {
-    text-align: center;
-    margin: 2vh 5vw;
-    padding: 1vh 3vw;
-    background-color: rgba(167, 170, 255, 0.7);
-    /* border: solid 3px #000000; */
-}
-
-.contact ul {
-    list-style: none;
-}
-#icon {
-    padding:5px;
-    height: 40px;
-    width: auto;
-    /* border: solid 3px #000000; */
 }
 
 /* food page */
@@ -84,8 +88,7 @@ footer {
 }
 
 #combo {
-    height: 45vh;
-    background-color: rgb(255, 127, 133);
+    height: 55vh;
 }
 
 #cards {
@@ -94,30 +97,13 @@ footer {
 }
 
 .card {
-    text-align: center;
     width: 40vw;
-    height: 35vh;
+    height: 50vh;
 }
 
 .card:nth-child(2) {
     margin-right: 5vw;
     margin-left: 5vw;
-}
-
-#sweet-cards {
-    display: flex;
-    justify-content: center;
-}
-
-.sweet-card {
-    text-align: center;
-    width: 35vw;
-    height: 35vh;
-}
-
-.sweet-card:nth-child(3) {
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 .meal-img img {
@@ -126,31 +112,10 @@ footer {
     /* border-radius: 5px; */
 }
 
-/* .description {
-    width: auto;
-    height: 5vh;
-    padding-right: 12px;
-    padding-left: 12px;
-    box-sizing: border-box;
-} */
-
 .description p {
+    text-align: center;
     font-size: larger;
     color: rgb(0, 0, 0);
-}
-
-.price {
-    text-align: center;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-}
-
-#main-meal {
-    text-align: center;
-}
-
-#snack-sweet {
-    display: flex;
 }
 
 /* activities page */
@@ -160,8 +125,8 @@ footer {
     justify-content: center;
 }
 
-#list-act:nth-child(4) {
-    margin: 0 2vw;
+#list-act.li:nth-child(4) {
+    margin: 0 5vw;
 }
 
 #list-act ul {
@@ -177,8 +142,8 @@ footer {
     justify-content: center;
 }
 
-#prize2-3:nth-child(2) {
-    margin: 0 5vw;
+#prize2-3.prize:nth-child(2) {
+    margin: 0 10vw;
 }
 
 #prize4-5 {
@@ -186,8 +151,8 @@ footer {
     justify-content: center;
 }
 
-#prize4-5:nth-child(2) {
-    margin: 0 5vw;
+#prize4-5.prize:nth-child(2) {
+    margin: 0 10vw;
 }
 
 .prize {
