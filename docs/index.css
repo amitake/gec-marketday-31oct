@@ -7,7 +7,6 @@ body {
 main{
     margin-top: 10vh; /* （※）の高さに合わせる */
     margin-bottom: 5vh;
-    padding-left: 10px;
     background: steelblue;
 }
 
@@ -15,10 +14,10 @@ footer {
     text-align: center;
     height: 5vh;
     width: 100%;
-    padding: 10px;
+    padding: 10%;
     background-color: rgba(255, 255, 255, 0.861);
     font-family: serif;
-    font-size: 5px;
+    font-size: 5vh;
     position: fixed;
     bottom: 0; /*下に固定*/
 }
@@ -37,8 +36,7 @@ header {
 
 .log-imag {
     width: 100vw;
-    height: 50vh;
-    background-color: black;
+    max-height: 75vh;
 }
 
 .info-template {
@@ -75,10 +73,10 @@ header {
 }
 
 .contact {
-    text-align:center;
+    text-align: center;
     margin: 10px 50px;
     padding: 5px 15px;
-    background-color: rgba(216, 246, 208, 0.7);
+    background-color: rgba(167, 170, 255, 0.7);
     /* border: solid 3px #000000; */
 }
 
@@ -96,6 +94,10 @@ header {
 
 #index {
     text-align: center;
+}
+
+#combo {
+    height:auto;
 }
 
 #cards {
