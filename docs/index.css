@@ -75,6 +75,7 @@ header {
 }
 
 .contact {
+    text-align:center;
     margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgba(216, 246, 208, 0.7);
