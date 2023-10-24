@@ -164,6 +164,28 @@ header {
 #list-act ul {
     list-style: none;
 }
+
+.prize1 {
+    text-align: center;
+}
+
+#prize2-3 {
+    display: flex;
+}
+
+#prize4-5 {
+    display: flex;
+}
+
+.prize {
+    text-align: center;
+}
+
+.raffleticket ul {
+    list-style: none;
+}
+
+
 /* Navbar & Navmenu color */
 :root {
     --background-navbar: rgba(55, 55, 55, 0.98);
