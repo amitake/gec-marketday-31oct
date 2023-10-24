@@ -7,17 +7,17 @@
 body {
     margin: 0;
     font-family: "Futura", Helvetica, sans-serif;
-    text-align:center;
 }
 
 .main-log {
+    margin-top: 52px;
     text-align:center;
     background-color: blue;
 }
 
 .log-imag {
     width: 100vw;
-    width: 70vh;
+    height: 70vh;
     background-color: black;
 }
 
@@ -83,12 +83,6 @@ footer {
 }
 
 /* header by https://photopizza.design/css_hamburger_menu/ */
-
-body {
-    margin: 0;
-    font-family: "Futura", Helvetica, sans-serif;
-}
-
   /* Navbar & Navmenu color */
 :root {
     --background-navbar: rgba(55, 55, 55, 0.98);
