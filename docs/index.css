@@ -7,11 +7,13 @@ body {
 
 .main-log {
     text-align:center;
+    background-color: blue;
 }
 
 .log-imag {
     margin: auto;
     max-width: 90vw;
+    background-color: black;
 }
 
 .info-template {
@@ -22,8 +24,8 @@ body {
 }
 
 .information {
-    padding: 5px 15px;
     text-align: center;
+    background-color: white;
 }
 
 .info-template li {
@@ -43,6 +45,8 @@ body {
 .container {
     margin: auto 50px 0px;
     padding: 5px 15px;
+    color: white;
+    background-color: white;
 }
 
 footer {
