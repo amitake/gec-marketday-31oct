@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: "Futura", Helvetica, sans-serif;
     background: rgb(145, 70, 180);
 }
@@ -34,7 +35,7 @@ header {
 
 .log-imag {
     width: 100vw;
-    max-height: 60vh;
+    max-height: 80vh;
 }
 
 .info-template {
@@ -46,7 +47,6 @@ header {
 
 .information {
     text-align: center;
-    background-color: white;
 }
 
 .info-template li {
@@ -124,7 +124,7 @@ header {
     margin-left: 10px;
 }
 
-.picture img {
+.meal-img img {
     width: 35vw;
     height: 30vh;
     /* border-radius: 5px; */
@@ -144,6 +144,7 @@ header {
 }
 
 .price {
+    text-align: center;
     font-size: 13px;
     color: rgb(0, 0, 0);
 }
