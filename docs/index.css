@@ -1,6 +1,6 @@
 body {
     text-align:center;
-    margin-top: 100px;
+    padding-top: 10vh;
     background-color: rgba(255, 235, 202, 0.761);
     /* background-size: cover; */
 }
@@ -33,7 +33,7 @@ body {
 
 .starlight-template {
     text-align:center;
-    margin: auto 50px 0px;
+    margin: 10px 50px;
     padding: 5px 15px;
     background-color: rgb(255, 250, 163);
 }
@@ -42,19 +42,22 @@ body {
 }
 
 .container {
-    margin: auto 50px 0px;
+    margin: 10px 50px;
     padding: 5px 15px;
     color: white;
     background-color: white;
 }
 
 .contact {
-    margin: 10px ;
-    padding: 10px 15px;
+    margin: 10px 50px;
+    padding: 5px 15px;
     background-color: rgba(216, 246, 208, 0.7);
     /* border: solid 3px #000000; */
 }
 
+.contact li {
+    list-style: none;
+}
 #icon {
     padding:5px;
     height: 40px;
