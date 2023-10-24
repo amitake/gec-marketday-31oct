@@ -89,7 +89,8 @@ header {
 }
 
 #combo {
-    height:auto;
+    height: 45vh;
+    background-color: rgb(255, 127, 133);
 }
 
 #cards {
