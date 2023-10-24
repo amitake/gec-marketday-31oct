@@ -185,7 +185,13 @@ footer {
 }
 
 .raffleticket ul {
+    text-align: center;
     list-style: none;
+}
+
+#prize img {
+    width: auto;
+    height: auto;
 }
 
 
