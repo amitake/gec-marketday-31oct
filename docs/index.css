@@ -172,10 +172,12 @@ footer {
 
 #prize2-3 {
     display: flex;
+    text-align: center;
 }
 
 #prize4-5 {
     display: flex;
+    text-align: center;
 }
 
 .prize {
