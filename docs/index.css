@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: "Futura", Helvetica, sans-serif;
-    background: rgb(145, 70, 180);
 }
 
 header {
@@ -35,7 +34,7 @@ footer {
 
 .log-imag {
     width: 100vw;
-    max-height: 80vh;
+    max-height: 90vh;
 }
 
 .info-template {
@@ -262,7 +261,7 @@ footer {
     background: #ddd;
     display: block;
     height: 3px;
-    width: 26px;
+    width: 4vh;
     position: relative;
     transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
 }
