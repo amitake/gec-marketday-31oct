@@ -23,6 +23,7 @@ footer {
 
 header {
     position: fixed;
+    top: 0;
 }
 
 /* Home and common items */
