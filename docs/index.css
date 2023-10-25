@@ -91,11 +91,11 @@ footer {
 }
 /* food page */
 
-.menu-img {
+/* .menu-img {
     text-align: center;
     width: 70vw;
     height: auto;
-}
+} */
 
 .container {
     text-align: center;
@@ -126,7 +126,7 @@ footer {
 }
 
 #list-act img {
-    width: 15vw;
+    max-width: 15vw;
     height: auto;
 }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 .prize img {
-    height: 30vh;
+    max-height: 30vh;
     width: auto;
 }
 
