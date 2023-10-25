@@ -153,6 +153,10 @@ footer {
     text-align: center;
 }
 
+.act-template ul {
+    list-style: none;
+}
+
 #list-act {
     display: flex;
     justify-content: center;
