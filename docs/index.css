@@ -89,6 +89,17 @@ footer {
     width:40vw;
     height: auto;
 }
+
+.voucher {
+    text-align:center;
+    margin: 2vh 5vw;
+    padding: 1vh 3vw;
+    background-color: rgb(255, 224, 163);
+}
+.voucher li {
+    list-style: none;
+}
+
 /* food page */
 
 /* .menu-img {
