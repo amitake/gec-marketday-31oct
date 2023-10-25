@@ -154,9 +154,12 @@ footer {
     text-align: center;
 }
 
-#prize-table.prize-img {
-    width: 70vw;
+#prize-table {
     text-align: center;
+}
+
+#prize-table.prize-img {
+    height: 30vh;
 }
 
 .raffleticket ul {
