@@ -121,6 +121,11 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#sweet-cards.container.li:nth-child(3) {
+    margin: 0 5vw;
+}
+
 .description p {
     text-align: center;
     font-size: larger;
@@ -128,6 +133,7 @@ footer {
 }
 
 .container {
+    text-align: center;
     width: 15vw;
 }
 
