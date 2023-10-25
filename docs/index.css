@@ -72,7 +72,7 @@ footer {
 
 .details {
     text-align: center;
-    color: rgb(188, 85, 0);
+    color: rgb(201, 92, 2);
 }
 
 .starlight-template {
@@ -90,6 +90,11 @@ footer {
     height: auto;
 }
 /* food page */
+
+.menu {
+    text-align: center;
+    width: 100vw;
+}
 
 .menu img {
     width: 100vw;
@@ -162,7 +167,7 @@ footer {
 }
 
 #list-act img {
-    width: 20%;
+    width: 15vw;
     height: auto;
 }
 
@@ -193,6 +198,7 @@ footer {
 }
 
 .raffleticket ul {
+    padding: 5%;
     text-align: center;
     list-style: none;
 }
@@ -203,8 +209,8 @@ footer {
 }
 
 .prize img {
-    width: 45vw;
-    height: auto;
+    height: 30vh;
+    width: auto;
 }
 
 
