@@ -101,6 +101,10 @@ footer {
     height: auto;
 }
 
+.menu ul {
+    list-style: none;
+}
+
 #index {
     text-align: center;
 }
