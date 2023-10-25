@@ -107,6 +107,12 @@ footer {
     text-align: center;
 }
 
+.food-menu img {
+    margin: auto;
+    width: 70vw;
+    height: auto;
+}
+
 /* activities page */
 
 .act-template {
