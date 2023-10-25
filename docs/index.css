@@ -85,7 +85,16 @@ footer {
     list-style: none;
 }
 
+.starlight-template img {
+    width:40vw;
+    height: auto;
+}
 /* food page */
+
+.menu img {
+    width: 100vw;
+    height: auto;
+}
 
 #index {
     text-align: center;

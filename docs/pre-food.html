@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html leng="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>GEC Market Day [food]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        
+        
+
+    </head>
+    <body>
+        <!-- header -->
+        <div id="header"></div>
+        <!-- mian -->
+        <main>
+            <div class="main-log">
+                <img class="log-imag" src="image/backgroung.jpg">
+            </div>
+            <!-- specail combo -->
+            <div id="combo">
+                <div id="index">
+                    <h1>special combo</h1>
+                </div>
+                <div id="cards">
+                    <!-- item: 1 -->
+                    <div class="container">
+                        <div class="meal-img">
+                            <img src="./image/gec-image9.JPG">
+                        </div>
+                        <div class="description">
+                            <h4>special combo1</h4>
+                            <h2>$14</h2>
+                        </div>
+                    </div>
+                    <!-- item: 2 -->
+                    <div class="container">
+                        <div class="meal-img">
+                            <img src="./image/gec-image9.JPG">
+                        </div>
+                        <div class="description">
+                            <h4>special combo2</h4>
+                            <h2>$12</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main meal -->
+            <div id="main-meal" class="container">
+                <div id="index">
+                    <h3>main</h3>
+                </div>
+                <div class="container">
+                    <div class="meal-img">
+                        <img src="./image/gec-image9.JPG">
+                    </div>
+                    <div class="description">
+                        <p>Pad Thai</p>
+                        <p>$10</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <!-- snack and sweet -->
+            <div id="snack-sweet" class="container">
+                <!-- snack -->
+                <div id="snack">
+                    <div id="index">
+                        <h3>snack</h3>
+                    </div>
+                    <div class="container">
+                        <div class="meal-img">
+                            <img src="./image/gec-image17.JPG">
+                        </div>
+                        <div class="description">
+                            <p>Nachos</p>
+                            <p>$6</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- sweet -->
+                <div id="sweet">
+                    <div id="index">
+                        <h3>sweet</h3>
+                    </div>
+                    <div id="sweet-cards">
+                        <div class="container">
+                            <div class="meal-img">
+                                <img src="./image/gec-image6.JPG">
+                            </div>
+                            <div class="description">
+                                <p>Halloween Waffle</p>
+                                <p>$6</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="meal-img">
+                                <img src="./image/gec-image8.JPG">
+                            </div>
+                            <div class="description">
+                                <p>strawberries+chocolate</p>
+                                <p>$4</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="meal-img">
+                                <img src="./image/gec-image7.JPG">
+                            </div>
+                            <div class="description">
+                                <p>candies bags</p>
+                                <p>$4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- cantact -->
+            <div class='contact'>
+                <ul>
+                    <li ><img src="./image/instagram.png" id="icon">Instagram: <a href="https://instagram.com/peekaboo_marketday?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">@peekaboo_marketday</a></li>
+                </ul>
+            </div>
+        </main>
+        <!-- footer -->
+        <div id="footer"></div>
+
+        <script>
+            fetch("header.html")
+                .then((response) => response.text())
+                .then((data) => document.querySelector("#header").innerHTML = data);
+            fetch("footer.html")
+                .then((response) => response.text())
+                .then((data) => document.querySelector("#footer").innerHTML = data);
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </body>
+</html>
