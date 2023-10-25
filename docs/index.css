@@ -97,12 +97,8 @@ footer {
 }
 
 .menu img {
-    width: 100vw;
+    width: 70vw;
     height: auto;
-}
-
-.menu ul {
-    list-style: none;
 }
 
 #index {
@@ -156,6 +152,10 @@ footer {
 }
 
 /* activities page */
+
+.act-template {
+    text-align: center;
+}
 
 #list-act {
     display: flex;
