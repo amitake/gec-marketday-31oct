@@ -18,6 +18,7 @@ footer {
     height: 4vh;
     width: 100%;
     padding: 10px;
+    color: #ddd;
     background-color: rgba(55, 55, 55, 0.98);
     font-size: 50%;
     position: fixed;
@@ -36,6 +37,7 @@ footer {
 
 .contact {
     text-align: center;
+    font-size: 5vh;
     margin: 2vh 5vw;
     padding: 1vh 3vw;
     background-color: rgba(193, 195, 251, 0.7);
@@ -45,9 +47,10 @@ footer {
 .contact ul {
     list-style: none;
 }
+
 #icon {
     padding:5px;
-    max-height: 10vh;
+    max-height: 5vh;
     width: auto;
     /* border: solid 3px #000000; */
 }
@@ -88,6 +91,7 @@ footer {
 }
 
 #combo {
+    text-align: center;
     height: 55vh;
 }
 
@@ -133,6 +137,11 @@ footer {
     list-style: none;
 }
 
+#list-act img {
+    width: 25vw;
+    height: auto;
+}
+
 .prize1 {
     text-align: center;
 }
@@ -164,8 +173,13 @@ footer {
     list-style: none;
 }
 
-#prize img {
-    width: auto;
+.prize1 img {
+    width: 70vw;
+    height: auto;
+}
+
+.prize img {
+    width: 45vw;
     height: auto;
 }
 
