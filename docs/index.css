@@ -59,7 +59,7 @@ footer {
     text-align:center;
     margin: 2vh 5vw;
     padding: 1vh 3vw;
-    background-color: rgb(199, 131, 255);
+    background-color: rgb(211, 158, 255);
 }
 
 .information {
@@ -71,7 +71,8 @@ footer {
 }
 
 .details {
-    color: rgb(255, 130, 29);
+    text-align: center;
+    color: rgb(188, 85, 0);
 }
 
 .starlight-template {
@@ -116,10 +117,18 @@ footer {
     /* border-radius: 5px; */
 }
 
+#sweet-cards {
+    display: flex;
+    justify-content: center;
+}
 .description p {
     text-align: center;
     font-size: larger;
     color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 15vw;
 }
 
 /* activities page */
@@ -138,7 +147,7 @@ footer {
 }
 
 #list-act img {
-    width: 25vw;
+    width: 20%;
     height: auto;
 }
 
@@ -174,7 +183,7 @@ footer {
 }
 
 .prize1 img {
-    width: 70vw;
+    width: 50vw;
     height: auto;
 }
 
