@@ -72,7 +72,8 @@ footer {
 
 .details {
     text-align: center;
-    color: rgb(222, 101, 2);
+    font-size: larger;
+    color: rgb(210, 96, 3);
 }
 
 .starlight-template {
@@ -102,15 +103,8 @@ footer {
 
 /* food page */
 
-/* .menu-img {
+.food-menu {
     text-align: center;
-    width: 70vw;
-    height: auto;
-} */
-
-.container {
-    text-align: center;
-    width: 15vw;
 }
 
 /* activities page */
@@ -139,6 +133,7 @@ footer {
 #list-act img {
     max-width: 15vw;
     height: auto;
+    object-fit: cover;
 }
 
 .prize1 {
@@ -153,19 +148,14 @@ footer {
 #prize2-3.prize:nth-child(2) {
     margin: 0 10vw;
 }
-
-#prize4-5 {
-    display: flex;
-    justify-content: center;
-}
-
-#prize4-5.prize:nth-child(2) {
-    margin: 0 10vw;
-}
-
 .prize {
     padding: 1vw;
     width:30vw;
+    text-align: center;
+}
+
+#prize-table.prize-img {
+    width: 70vw;
     text-align: center;
 }
 
