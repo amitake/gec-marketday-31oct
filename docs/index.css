@@ -91,12 +91,8 @@ footer {
 }
 /* food page */
 
-.menu {
+.menu-img {
     text-align: center;
-    width: 100vw;
-}
-
-.menu img {
     width: 70vw;
     height: auto;
 }
