@@ -187,13 +187,17 @@ a.btn--orange:hover {
     height: 30vh;
 }
 
+.raffleticket {
+    text-align:center;
+    margin: 2vh 5vw;
+    padding: 1vh 3vw;
+    border-radius: 30% 70% 35% 65% / 50% 50% 50% 50%;
+    background-color: #2374d0b9;
+}
+
 .raffleticket ul {
     padding: 5%;
-    text-align: center;
     list-style: none;
-    border-radius: 30% 70% 35% 65% / 50% 50% 50% 50%;
-    margin: 2vh 5vw;
-    background-color: #2374d0b9;
 }
 
 .prize1 img {
